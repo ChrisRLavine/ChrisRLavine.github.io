@@ -1,0 +1,59 @@
+body {
+    background-image:url(../media/portfolioback.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+html, body {
+    height: 100%;
+    width: 100%;   
+}
+p {
+    font-size: 16px;
+}
+.outternav {
+    background: black;     
+}
+.topnav {
+    list-style: none; 
+    font-size: 16px;    
+}
+.topnav li {
+    display: inline;    
+}
+.topnav a {
+    text-decoration: none;
+    color: white; 
+}
+.photodiv {
+    text-align: center;
+}
+.myphoto {
+    height: 285px;
+    border-radius: 50%;    
+}
+.aboutmediv {
+    text-align: center;
+}
+.projectdiv {
+    text-align: center;
+}
+.project {
+    text-align: center;
+}
+.airbox {
+    height: 175px;
+}
+.detroix {
+    height: 175px;
+}
+.venedor {
+    height: 175px;
+}
+.contactdiv {
+    text-align: center;
+}
+.social {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
