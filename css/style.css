@@ -1,21 +1,40 @@
+/*
+p {
+    color: #6690A5;
+    background: #A1B7C2;
+}
+a {
+   color: #C0D0D9; 
+}
+:hover {
+    color: #A1B7C2;
+*/
 body {
     background-image:url(../media/portfolioback.jpg); 
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     background-size: 100%;
 }
 html, body {
     height: 100%;       
 }
+h1 h2{
+    color: rgb(31, 42, 53);
+}
 p {
     font-size: 16px;
-    background-color: rgba(114, 111, 111, 0.1);
+    background: linear-gradient(rgba(102, 144, 165, 0.589), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
+    color: #1f252b;
     border-radius: 4px;
+}
+img:hover {
+    box-shadow: 4px 4px 5px rgb(52, 68, 77);
 }
 .nav {
     width: 100%;
 }
 .outternav {
-    background: black;     
+    background: rgb(31, 37, 43); 
+    width: 100%;  
 }
 .topnav {
     list-style: none; 
@@ -26,7 +45,8 @@ p {
 }
 .topnav a {
     text-decoration: none;
-    color: white; 
+    color: rgb(192, 208, 217); 
+    margin-right: 20px;
 }
 .photodiv {
     text-align: center;
@@ -36,7 +56,9 @@ p {
     border-radius: 50%;    
 }
 .main {
+    height: 483px;
     margin-top: 100px;
+    background: repeating-radial-gradient(rgba(102, 144, 165, 0.616), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
 }
 .aboutmediv {
     text-align: center;
@@ -48,7 +70,15 @@ p {
     margin-left: 460px;    
 }
 .description {
-    color: black;
+    color: rgb(31, 37, 43);
+    font-size: 16px;
+    background: linear-gradient(rgba(102, 144, 165, 0.72), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
+    color: #1f252b;
+    border-radius: 4px;
+    border: 1px solid #5b7f90
+}
+.projecth2 {
+    margin-left: 45px;
 }
 .projectdiv {
     text-align: center;
@@ -68,21 +98,26 @@ p {
     height: 175px;
 }
 .detrioxp {
-    background-color: rgba(207, 204, 204, 0.671);
+    background: linear-gradient(rgba(102, 144, 165, 0.616), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
 }
 .venedor {
     height: 175px;
 }
 .seecode {
-    background: #668599;
+    background: rgba(138, 150, 164, 0.603);
     border-radius: 5px;
-    color: azure;
+    color: rgb(31, 37, 43);
     padding: 5px;
 }
 .seecode:hover {
-    color: azure;
-    box-shadow: 3px;
+    text-transform: uppercase;
+    color: rgb(31, 37, 43);
+    text-shadow: 2px 2px 5px rgb(165, 214, 238);
+    box-shadow: 3px 3px 5px rgb(50, 64, 71);
     text-decoration: none;
+}
+.outterftr {
+    background: linear-gradient(rgba(102, 144, 165, 0.493), rgba(161, 183, 194, 0.493), rgba(192, 208, 217, 0.616));
 }
 .ftr {
     margin-top: 80px; 
@@ -95,4 +130,12 @@ p {
     font-size: 25px;
     margin-left: 10px;
     margin-top: 20px;
+    color: rgb(31, 37, 43);
+}
+.social:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px  5px  rgb(31, 37, 43);
+}
+@mediascreen (min-width: 375px ) (max-width: 600px) {
+
 }
