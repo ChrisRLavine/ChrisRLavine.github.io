@@ -49,11 +49,19 @@ img:hover {
     margin-right: 20px;
 }
 .photodiv {
-    text-align: center;
+    width: 648px;
+    height: 396px;
+    margin: 0 auto;
+}
+.name {
+    margin-left: 173px;
+    width: 306px;
 }
 .myphoto {
     height: 285px;
-    border-radius: 50%;    
+    border-radius: 50%; 
+    margin-left: 181px;
+    /*width: 257px;*/ 
 }
 .main {
     height: 483px;
@@ -73,16 +81,16 @@ img:hover {
     color: rgb(31, 37, 43);
     font-size: 16px;
     background: linear-gradient(rgba(102, 144, 165, 0.72), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
-    color: #1f252b;
+    color: rgb(31, 37, 43);
     border-radius: 4px;
-    border: 1px solid #5b7f90
+    border: 1px solid rgb(91, 127, 144);
 }
 .projecth2 {
     margin-left: 45px;
 }
 .projectdiv {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 .projectdiv {
     width: 510px;
@@ -108,10 +116,12 @@ img:hover {
     border-radius: 5px;
     color: rgb(31, 37, 43);
     padding: 5px;
+    border: 0.8px solid rgba(158, 223, 255, 0.63);
 }
 .seecode:hover {
     text-transform: uppercase;
     color: rgb(31, 37, 43);
+
     text-shadow: 2px 2px 5px rgb(165, 214, 238);
     box-shadow: 3px 3px 5px rgb(50, 64, 71);
     text-decoration: none;
@@ -135,7 +145,4 @@ img:hover {
 .social:hover {
     text-decoration: none;
     text-shadow: 2px 2px  5px  rgb(31, 37, 43);
-}
-@mediascreen (min-width: 375px ) (max-width: 600px) {
-
 }
