@@ -135,7 +135,6 @@ img:hover {
 .seecode:hover {
     text-transform: uppercase;
     color: rgb(31, 37, 43);
-
     text-shadow: 2px 2px 5px rgb(165, 214, 238);
     box-shadow: 3px 3px 5px rgb(50, 64, 71);
     text-decoration: none;
