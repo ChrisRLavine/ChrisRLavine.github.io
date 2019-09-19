@@ -10,7 +10,7 @@ a {
     color: #A1B7C2;
 */
 body {
-    background-image:url(../media/portfolioback.jpg); 
+    /*background-image:url(../media/portfolioback.jpg); */
     background-repeat: repeat;
     background-size: 100%;
 }
@@ -34,7 +34,8 @@ img:hover {
 }
 .outternav {
     background: rgb(31, 37, 43); 
-    width: 100%;  
+    width: 100%; 
+    margin: 0%; 
 }
 .topnav {
     list-style: none; 
@@ -47,6 +48,13 @@ img:hover {
     text-decoration: none;
     color: rgb(192, 208, 217); 
     margin-right: 20px;
+}
+.background-img {
+    margin: 0%;
+    height: 461px;
+    width: 1367px;
+    box-shadow: none;
+    position: absolute;
 }
 .photodiv {
     width: 648px;
@@ -63,6 +71,13 @@ img:hover {
     margin-left: 181px;
     /*width: 257px;*/ 
 }
+.outter {
+    background: linear-gradient(rgb(102, 144, 165), rgb(161, 183, 194), rgba(192, 208, 217));
+    height: 357px;
+}
+.outtermain {
+    background: #58626B;
+}
 .main {
     height: 483px;
     margin-top: 100px;
@@ -70,8 +85,8 @@ img:hover {
 }
 .aboutmediv {
     text-align: center;
-    top: 20px;
-    margin-top: 20px;
+    top: 30px;
+    margin-top: 30px;
 }
 .descriptiondiv {
     width: 440px;
@@ -89,8 +104,7 @@ img:hover {
     margin-left: 45px;
 }
 .projectdiv {
-    text-align: center;
-    margin-top: 20px;    
+    text-align: center;    
 }
 .projectdiv {
     width: 510px;
@@ -103,7 +117,7 @@ img:hover {
     height: 175px;
 }
 .detroix {
-    height: 175px;
+    height: 175px;  
 }
 .detrioxp {
     background: linear-gradient(rgba(102, 144, 165, 0.616), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
@@ -126,15 +140,15 @@ img:hover {
     box-shadow: 3px 3px 5px rgb(50, 64, 71);
     text-decoration: none;
 }
+.outterlwrmain {
+    background: linear-gradient(rgb(88, 98, 107), rgba(161, 183, 194), rgba(192, 208, 217));
+    height: 396px;
+}
 .outterftr {
     background: linear-gradient(rgba(102, 144, 165, 0.493), rgba(161, 183, 194, 0.493), rgba(192, 208, 217, 0.616));
 }
-.ftr {
-    margin-top: 80px; 
-}
 .contactdiv {
     text-align: center;
-    margin-top: 20px;
 }
 .social {
     font-size: 25px;
