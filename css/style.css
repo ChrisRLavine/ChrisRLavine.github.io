@@ -80,7 +80,7 @@ img:hover {
 }
 .main {
     height: 483px;
-    margin-top: 100px;
+    margin-top: 0px;
     background: repeating-radial-gradient(rgba(102, 144, 165, 0.616), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
 }
 .aboutmediv {
@@ -98,7 +98,7 @@ img:hover {
     background: linear-gradient(rgba(102, 144, 165, 0.72), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
     color: rgb(31, 37, 43);
     border-radius: 4px;
-    border: 1px solid rgb(91, 127, 144);
+    /* border: 1px solid rgb(91, 127, 144); */
 }
 .projecth2 {
     margin-left: 45px;
@@ -109,6 +109,7 @@ img:hover {
 .projectdiv {
     width: 510px;
     margin-left: 305px;
+    padding-left: 45px;
 }
 .project {
     text-align: center;
@@ -142,6 +143,28 @@ img:hover {
 .outterlwrmain {
     background: linear-gradient(rgb(88, 98, 107), rgba(161, 183, 194), rgba(192, 208, 217));
     height: 396px;
+}
+.cert {
+    width: 580px;
+}
+.hccert {
+    width: 577px;
+    margin-right: 5px;
+    margin-top: 25px;
+}
+.jscert {
+    width: 577px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+.fcc {
+    font-size: 50px;
+    text-decoration: none;
+    color: darkgreen;
+    margin: 0 auto;
+    position: relative;
+    left: 264px;
+    top: 30px;
 }
 .outterftr {
     background: linear-gradient(rgba(102, 144, 165, 0.493), rgba(161, 183, 194, 0.493), rgba(192, 208, 217, 0.616));
