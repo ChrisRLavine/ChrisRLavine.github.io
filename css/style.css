@@ -9,14 +9,14 @@ a {
 :hover {
     color: #A1B7C2;
 */
-body {
+/* body {
     /*background-image:url(../media/portfolioback.jpg); */
-    background-repeat: repeat;
-    background-size: 100%;
-}
-html, body {
+    /* background-repeat: repeat;
+    background-size: 100%; 
+}*/ 
+/* html, body {
     height: 100%;       
-}
+} */
 h1 h2{
     color: rgb(31, 42, 53);
 }
@@ -52,7 +52,7 @@ img:hover {
 .background-img {
     margin: 0%;
     height: 461px;
-    width: 1367px;
+    width: 100%;
     box-shadow: none;
     position: absolute;
 }
@@ -105,10 +105,8 @@ img:hover {
 }
 .projectdiv {
     text-align: center;    
-}
-.projectdiv {
     width: 510px;
-    margin-left: 305px;
+    right: 17px;
     padding-left: 45px; 
 }
 .project {
@@ -145,7 +143,7 @@ img:hover {
     height: 396px;
 }
 .cert {
-    width: 580px;
+    width: 50%;
 }
 .hccert {
     width: 577px;
