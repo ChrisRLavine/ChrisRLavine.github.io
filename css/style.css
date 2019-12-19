@@ -84,9 +84,8 @@ img:hover {
     background: repeating-radial-gradient(rgba(102, 144, 165, 0.616), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
 }
 .aboutmediv {
-    text-align: center;
-    top: 30px;
-    margin-top: 30px;
+    top: 30px;margin: 30px auto;
+    width: 40px;
 }
 .descriptiondiv {
     width: 440px;
@@ -101,7 +100,7 @@ img:hover {
     /* border: 1px solid rgb(91, 127, 144); */
 }
 .projecth2 {
-    margin-left: 45px;
+    margin-left: 113%;
 }
 .projectdiv {
     text-align: center;    
@@ -111,6 +110,10 @@ img:hover {
 }
 .project {
     text-align: center;
+}
+.projectdesc {
+    position: relative;
+    left: 324px;
 }
 .airbox {
     height: 175px;
