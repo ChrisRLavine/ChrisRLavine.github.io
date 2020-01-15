@@ -86,12 +86,14 @@ img:hover {
 .aboutmediv {
     top: 30px;margin: 30px auto;
     width: 40px;
+    margin-left: 573px;
 }
 .aboutme {
     text-align: center;
-    padding: 30px;
-    margin-left: 93px;
-    width: 199px;
+    width: 131px;
+    margin-top: 0px;
+    padding-top: 63px;
+    margin-left: 114px;
 }
 .descriptiondiv {
     width: 440px;
@@ -108,13 +110,13 @@ img:hover {
     /* border: 1px solid rgb(91, 127, 144); */
 }
 .projecth2 {
-    margin-left: 113%;
+    margin-left: 101%
 }
 .projectdiv {
     text-align: center;    
     width: 510px;
     right: 17px;
-    padding-left: 45px; 
+    padding-left: 26px; 
 }
 .project {
     text-align: center;
