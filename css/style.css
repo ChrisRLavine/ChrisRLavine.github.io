@@ -87,11 +87,19 @@ img:hover {
     top: 30px;margin: 30px auto;
     width: 40px;
 }
+.aboutme {
+    text-align: center;
+    padding: 30px;
+    margin-left: 93px;
+    width: 199px;
+}
 .descriptiondiv {
     width: 440px;
-    margin-left: 460px;    
+    margin-left: 607px;    
 }
 .description {
+    width: 410px;
+    text-align: center;
     color: rgb(31, 37, 43);
     font-size: 16px;
     background: linear-gradient(rgba(102, 144, 165, 0.72), rgba(161, 183, 194, 0.411), rgba(192, 208, 217, 0.616));
